@@ -2,7 +2,7 @@
 
 This is a sample template for a serverless AWS Lambda application, written in Java.
 
-The application does images processing; images deposited in the "Uploaded Images"
+The application does image processing; images deposited in the "Uploaded Images"
 S3 bucket are resized to thumbnails, which are then added to the "Processed Images"
 bucket.
 
