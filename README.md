@@ -16,7 +16,7 @@ Here is an overview of the files:
 .
 ├── README.md                          <-- This README file
 ├── src                                <-- Source code dir for all AWS Lambda functions
-│   └── functionED8CCE6E               <-- Source code dir for imageProcessor function
+│   └── imageProcessor                 <-- Source code dir for imageProcessor function
 │       ├── build.gradle               <-- Gradle dependencies for the function code
 │       └── src
 │           └── main
