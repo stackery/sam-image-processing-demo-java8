@@ -18,10 +18,12 @@ Here is an overview of the files:
 ├── src                                <-- Source code dir for all AWS Lambda functions
 │   └── imageProcessor                 <-- Source code dir for imageProcessor function
 │       ├── build.gradle               <-- Gradle dependencies for the function code
+│       ├── .stackery-config.yaml      <-- Default CLI parameters for this directory
 │       └── src
 │           └── main
 │               └── java
 │                   └── Handler.java   <-- Lambda imageProcessor function code
+├── .stackery-config.yaml              <-- Default CLI parameters for root directory
 └── template.yaml                      <-- SAM infrastructure-as-code template
 ```
 
